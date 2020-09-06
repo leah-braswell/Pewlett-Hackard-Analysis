@@ -166,3 +166,20 @@ SELECT 	di.emp_no,
 INTO mentor_prog
 FROM dept_info as di
 WHERE dept_name IN ('Sales', 'Development');
+
+--create new pool of potential mentees
+SELECT DISTINCT ON (e.emp_no) e.emp_no,
+				e.first_name,
+				e.last_name,
+				ts.title,
+				d.dept_name
+INTO expanded_potential_pool
+FROM employees as e
+INNER JOIN titles as ts
+ON e.emp_no  = ts.emp_no
+LEFT JOIN dept_emp
+ON ts.to_date = dept_emp.to_date
+
+SELECT COUNT (emp_no)
+FROM dept_emp
+WHERE to_date = '9999-01-01';
