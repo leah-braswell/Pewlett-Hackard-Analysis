@@ -1,10 +1,9 @@
 # Pewlett-Hackard-Analysis
-Boot Camp Week 7
 
 ## Overview of Analysis
-The Pewlett-Hackard company is preparing for a large number of employees to retire.  In order to prepare for what the company execs are callin a "Silver Tsunami", the company is interested in creating a database to hold information on the retirees and the employees who may be promoted to replace them.  They will need a list containing the names and other important information for the retirees in order to prepare appropriate retirement packages.
+The Pewlett-Hackard company is preparing for a large number of employees to retire.  In order to prepare for what the company execs are calling a "Silver Tsunami", the company is interested in creating a database to hold information on the retirees and the employees who may be promoted to replace them.  They will need a list containing the names and other important information for the retirees in order to prepare appropriate retirement packages.
 
-The second thing the company needs to consider is who they will choose to fill the roles being vacated by the retirees.  They will be looking to promote experienced employees who have desired skills.  In order to guarantee that the employees filling the vacancies are ready for the demands of their new positions on Day 1, the comany will begin a mentorship program.  Retiring employees who have been with the company since at least 1988 are potential mentors.  Current employees born in 1965 are being considered as mentees.
+The second thing the company needs to consider is who they will choose to fill the roles being vacated by the retirees.  They will be looking to promote experienced employees who have the desired skills.  In order to guarantee that the employees filling the vacancies are ready for the demands of their new positions on Day 1, the comany will begin a mentorship program.  Retiring employees who have been with the company since at least 1988 are potential mentors.  Current employees born in 1965 are being considered as mentees.
 
 These considerations will allow Pewlett-Hackard to honor their retirees while ensuring a smooth transition into the future of the company.
 
